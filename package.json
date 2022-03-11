@@ -1,0 +1,19 @@
+{
+  "name": "tablr",
+  "version": "1.0.0",
+  "description": "Creates an HTML table from a CSV formatted file.",
+  "main": "index.js",
+  "bin": {
+    "tablr": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tim Harshbarger",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.0.0",
+    "csv-parse": "^5.0.4"
+  }
+}
