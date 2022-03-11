@@ -1,4 +1,6 @@
 
+#!/usr/bin/env node
+
 const {program} = require("commander");
 const {parse} = require("csv-parse/sync");
 const fs = require("fs");
