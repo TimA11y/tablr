@@ -17,4 +17,11 @@ There are additional options that can be used.
 * -t, --title <page title>: This sets the page title that will be used for the HTML output file. If your page title includes spaces, use quotes (ex: "Table Example"). If this option is designated, then the HTML output will be a valid HTML document that also contains the table markup.
 * -l, -lang <language>: This will designate the language code for the page (only useful when using the -t option.) By default, the language code is set to EN (English.)
 
+## Installing
+
+Once you download the repo, do the following steps to make the "tablr" command available at your command prompt.
+
+1. Type "npm install" at the command line (while in the directory containing the tablr code.)
+2. Type "npm install -g" to make the tablr command globally available from the command line.
+
 
